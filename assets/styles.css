@@ -1,0 +1,25 @@
+main{
+    display: grid;
+    background-color: azure;
+    
+    
+}
+header{
+    height: 100px;
+    background-color: gray;
+}
+aside {
+    float: right;
+    flex-direction: column;
+    border: solid 1px black;
+    
+    
+}
+.table img{
+    width: 250px;
+    
+}
+
+.table th {
+    text-align: left;
+}
