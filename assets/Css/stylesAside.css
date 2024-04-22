@@ -1,0 +1,29 @@
+aside {
+    float: right;
+    border: solid 1px black;
+    margin-top: 15px;
+    margin-right: 10px;
+    
+   
+}
+
+.table img{
+    width: 220px;
+    
+}
+
+.table th {
+    text-align: left;
+}
+.table th[name=TableTag]{
+    background-color: rgb(132, 221, 132);
+    text-align: center;
+}
+
+
+.TableImg td{
+    width: 80px;
+    display: inline-flex;
+    margin-left: 25px;
+
+}
