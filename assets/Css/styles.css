@@ -1,6 +1,9 @@
+html{
+    margin: 0vh 20vh 0vh ;
+}
 body{
     font-family: sans-serif;
-    background-color: azure;
+    background-color: #ffffff;
     font-size: 14px;
 
 }
@@ -9,12 +12,38 @@ body{
    
 }
 main{
-   
     z-index: 2;
-    margin-left: 215px;
+    margin-left: 30vh;
+    margin-right: 20vh;
+    
     
 }
 header{
     height: 100px;
     background-color: gray;
+}
+.TableMain {
+    border-collapse: collapse;
+   border: solid 1px black;
+   
+}
+.TableMain [name=cabecalho]{
+    background-color: rgb(241,196,15)   ;
+    height: 32px;
+ 
+}
+.TableMain [name=cabecalho] th{
+    border: solid 1px black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.TableMain th, td{
+    font-size: ;
+    text-align: justify;
+}
+.cabecalho td{
+    background-color: #f2f2f2;
+    height: 40px;
+    border: solid 1px black;
+    border-collapse: collapse;
 }

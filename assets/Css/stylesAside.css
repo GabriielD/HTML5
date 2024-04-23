@@ -16,7 +16,7 @@ aside {
     text-align: left;
 }
 .table th[name=TableTag]{
-    background-color: rgb(132, 221, 132);
+    background-color:rgb(212,242,206);
     text-align: center;
 }
 
@@ -27,3 +27,4 @@ aside {
     margin-left: 25px;
 
 }
+
