@@ -1,8 +1,9 @@
 aside {
     float: right;
     border: solid 1px black;
-    margin-top: 15px;
+    margin-top: 60px;
     margin-right: 10px;
+    margin-left: 20px;
     
    
 }
@@ -28,3 +29,28 @@ aside {
 
 }
 
+.TableMain {
+    border-collapse: collapse;
+   border: solid 1px black;
+   
+}
+.TableMain [name=cabecalho]{
+    background-color: rgb(241,196,15)   ;
+    height: 32px;
+ 
+}
+.TableMain [name=cabecalho] th{
+    border: solid 1px black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.TableMain th, td{
+ 
+    text-align: justify;
+}
+.cabecalho td{
+    background-color: #f2f2f2;
+    height: 40px;
+    border: solid 1px black;
+    border-collapse: collapse;
+}
