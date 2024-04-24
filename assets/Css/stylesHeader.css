@@ -1,0 +1,33 @@
+header picture{
+    width: 100px;
+    height: 80px;
+}
+header picture img{
+   width: 200px;
+}
+header{
+    height: 60px;
+    background-color: white;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    margin-top: 20px;
+}
+header form {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+header form input{
+    height: 25px;
+    width: 400px;
+    
+}
+header form button{
+   height: 31px;
+   background-color: #FCFCFD;
+   font-weight: bold;
+   border: solid 1px black;
+   font-size: 14px;
+}
