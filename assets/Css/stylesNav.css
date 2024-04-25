@@ -1,57 +1,72 @@
-nav{
-    background-color: #ffffff;;
-    z-index: 1;   
+nav {
+    background-color: #ffffff;
+    ;
+    z-index: 1;
     position: fixed;
     margin-top: 10px;
-    text-align:left;    
-   
-}
-nav ul{
-    padding-left: 0px;
-}
-nav ul li{
-    list-style: none;
-    margin: 15px ;
+    text-align: left;
+
 }
 
-nav ul li a:link{
-    color:#3f72d8fb;
+nav ul {
+    padding-left: 0px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 15px;
+}
+
+nav ul h4 {
+    font-size: 15px;
+}
+
+nav ul li a:link {
+    color: #3f72d8fb;
     text-decoration: none;
 }
-nav ul li a:visited{
-    color:#3f72d8fb;
+
+nav ul li a:visited {
+    color: #3f72d8fb;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     text-decoration: underline;
 }
-.detalhes summary a:link{
-    color:#3f72d8fb;
+
+.detalhes summary a:link {
+    color: #3f72d8fb;
     text-decoration: none;
 }
-.detalhes summary a:visited{
-    color:#3f72d8fb;
+
+.detalhes summary a:visited {
+    color: #3f72d8fb;
     text-decoration: none;
 }
-.detalhes summary a:hover{
-    text-decoration:underline;
+
+.detalhes summary a:hover {
+    text-decoration: underline;
 }
-nav hr{
+
+nav hr {
     opacity: 0.3;
 }
+
 summary {
     list-style: none;
 
-  }
+}
+
 .detalhes li {
     padding-left: 10px;
 }
+
 .detalhes summary::before {
     content: url(/assets/img/keyboard-right-arrow-button-1_icon-icons.com_72690.svg);
     margin-right: 5px;
- 
+
 }
- details[open] summary::before{
+
+details[open] summary::before {
     content: url(/assets/img/angle-arrow-down_icon-icons.com_73683.svg)
-    
-    
 }
