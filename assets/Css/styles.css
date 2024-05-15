@@ -1,5 +1,5 @@
 html {
-    margin: 0vh 10vh 0vh;
+    margin: 0vh 5vh 0vh 4vh;
 }
 
 body {
@@ -17,8 +17,8 @@ display: grid;
 
 main {
     z-index: 2;
-    margin-left: 35vh;
-    margin-right: 5vh;
+    margin-left: 40vh;
+    margin-right: 0vh;
 
 
 }

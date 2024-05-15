@@ -15,7 +15,7 @@ header {
     flex-direction: row;
     display: flex;
     margin-top: 15px;
-    
+    z-index: 1;
     justify-content: space-around;
     align-items: center;
 }
@@ -63,4 +63,9 @@ header form button {
 flex-direction: row;
 display: flex;
 align-items: center;
+}
+footer{
+    z-index: 1;
+    position: fixed;
+
 }
